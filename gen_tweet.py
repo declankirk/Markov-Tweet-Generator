@@ -61,7 +61,7 @@ if __name__ == '__main__':
 		print("TweepError:", e)
 		quit()
 	
-	model = markovify.NewlineText(tweets)
+	model = markovify.Text(tweets)
 	print()
 	print("-------------------------------------------------------")
 	print("Hit ENTER to generate another tweet, enter \'q\' to quit.")
